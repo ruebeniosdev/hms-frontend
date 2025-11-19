@@ -6,8 +6,8 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import { Logo } from "@/components/logo";
-import { NavMenu } from "@/components/nav-menu";
+import { Logo } from "@/components/navbar/Logo";
+import { NavMenu } from "@/components/navbar/Nav-menu";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export const NavigationSheet = () => {
