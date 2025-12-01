@@ -3,6 +3,8 @@
 HMS is a modern, responsive management dashboard designed for herbal stores, clinics, and health-based businesses. It provides seamless inventory management, staff control, sales tracking, and reporting.
 Built with React, TypeScript, TanStack Router, and optional Tailwind + shadcn/ui for a clean, professional UI.
 
+Live https://hmshealth.netlify.app/
+
 🧩 Features
 
 🔒 Authentication (Login / Sign Up)
