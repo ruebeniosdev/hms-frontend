@@ -104,3 +104,4 @@ Coming Soon: HMS interface preview screenshots.
 🛠️ Customization
 
 Made with ❤️ by the HMS Team.
+HMS team 
