@@ -1,15 +1,13 @@
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, CirclePlay } from "lucide-react";
-// import { BackgroundPattern } from "@/components/background-pattern";
-// import { AnimatedGridPattern } from "@/components/animated-grid-pattern";
-// import { cn } from "@/lib/utils";
-import { Link } from "@tanstack/react-router";
-// import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 
-export const Hero = () => {
+import { ArrowUpRight, CirclePlay } from "lucide-react";
+import { Link } from "@tanstack/react-router";
+
+export default function Hero() {
   return (
-    <div className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
+  <div className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
       {/* <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
@@ -26,7 +24,7 @@ export const Hero = () => {
           className="rounded-full py-1 border-border"
           asChild
         >
-          <Link to="/signup">
+          <Link to="/">
             Just released v1.0.0 <ArrowUpRight className="ml-1 size-4" />
           </Link>
         </Badge>
@@ -37,14 +35,14 @@ export const Hero = () => {
 
         <p className="mt-6 md:text-lg text-foreground/80">
           Transform hospital workflow with HMS. Streamline patient registration,
-          appointments, bed management, EHR, pharmacy, laboratory operations,
-          and billing. Eliminate paperwork, reduce errors, and ensure compliance
-          with GHS and NHIA regulations.
+          appointments, bed management, EHR, pharmacy, laboratory operations, and billing.
+          Eliminate paperwork, reduce errors, and ensure compliance with GHS and NHIA
+          regulations.
         </p>
 
         <div className="mt-12 flex items-center justify-center gap-4">
           <Button size="lg" className="rounded-full text-base">
-            Get Started <ArrowUpRight className="h-5 w-5" />
+            Get Started <ArrowUpRight className="h-5! w-5!" />
           </Button>
 
           <Button
@@ -52,10 +50,10 @@ export const Hero = () => {
             size="lg"
             className="rounded-full text-base shadow-none"
           >
-            <CirclePlay className="h-5 w-5" /> Watch Demo
+            <CirclePlay className="h-5! w-5!" /> Watch Demo
           </Button>
         </div>
       </div>
     </div>
   );
-};
+}
